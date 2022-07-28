@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/5/cyborg/bootstrap.min.css">
+    <title>Javascript Clase 15: AJAX & FETCH</title>
+</head>
+<body class="container">
+    <header class="container">
+        <h1 class="h2">Gastón Sosa Javascript Desafio Clase 15: AJAX & FETCH APIs</h1>
+        <h2 class="h3">NASA: A Picture of the Day</h2>
+    </header>
+    <main>
+        <div class="container">
+            <form id="idForm">
+                <div class="mb-6">
+                  <label for="fecha" class="form-label">Fecha de la imagen del día!</label>
+                  <input type="date" class="form-control" name="fecha">
+                  <div id="fechaHelp" class="form-text">Si no ingresas ninguna fecha, el default es la fecha de hoy.</div>
+                </div>
+                <button type="submit" class="btn btn-primary" id="botonForm">Imagen del día!</button>
+              </form>
+        </div>
+    
+        
+        <div id="divNASA" class="container">
+
+        </div>
+    </main>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
